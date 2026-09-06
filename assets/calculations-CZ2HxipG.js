@@ -1,0 +1,1 @@
+function e(e,t,n){let r=e.reduce((e,t)=>e+t.quantity*t.unitPrice,0),i=Math.min(Math.max(t,0),r),a=r-i,o=n.reduce((e,t)=>e+t.amount,0);return{subtotal:r,discount:i,total:a,paid:o,remaining:Math.max(a-o,0)}}export{e as t};

@@ -1,0 +1,1 @@
+import{T as e,t}from"./useRouter-BS-gIXgn.js";function n(e){let n=t();return(t=>n.navigate({...t,from:t.from??e?.from}))}function r(n){let{navigate:r}=t();return e(()=>{r({...n})}),null}export{n,r as t};

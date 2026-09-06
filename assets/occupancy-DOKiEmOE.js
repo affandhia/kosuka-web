@@ -1,0 +1,1 @@
+function e(e){let t=0,n=0;for(let r of e)r.status===`occupied`&&(t+=1,n+=r.monthlyRent);return{total:e.length,occupied:t,vacant:e.length-t,occupiedRent:n}}export{e as t};

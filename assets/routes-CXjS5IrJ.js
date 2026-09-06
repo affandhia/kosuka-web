@@ -1,0 +1,1 @@
+import{u as e}from"./useRouter-BS-gIXgn.js";import{t}from"./useNavigate-j3URZbEB.js";function n(){return e(t,{to:`/properties`})}export{n as component};

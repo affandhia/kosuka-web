@@ -1,0 +1,1 @@
+var e=class extends Error{code;constructor(e){super(`Deletion blocked: ${e}`),this.name=`DeleteBlockedError`,this.code=e}};export{e as t};
